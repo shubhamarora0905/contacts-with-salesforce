@@ -1,0 +1,7 @@
+{
+  "name": "Contacts With Salesforce",
+  "description": "This is a simple project made using Spring Boot that can add contacts into salesforce using heroku connect. Deploy this as an Heroku App.",
+  "repository": "https://github.com/shubhamarora0905/contacts-with-salesforce",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["salesforce", "heroku", "spring boot"]
+}
