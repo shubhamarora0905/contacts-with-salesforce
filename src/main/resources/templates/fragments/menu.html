@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<div class="ui menu" th:fragment="navbar">
+		<a href="/"><div class="header item">Contacts With
+				Salesforce</div></a>
+	</div>
+
+	<div th:fragment="footer" class="ui inverted vertical footer segment"
+		style="margin-top: 40%">
+		<div class="ui center aligned container">
+
+			<h4 class="ui inverted header">Developed by Shubham Arora</h4>
+			<p>This is a simple application made using Spring Boot, Postgres
+				Database, JPA & hibernate. The UI is made using thymeleaf and Semantic UI.</p>
+			<p>It uses heroku connect to sync data between Postgres DB and
+				Salesforce.</p>
+			<p>So, whenever you save or edit a contact, the same data is
+				saved to Salesforce.</p>
+		</div>
+	</div>
+</body>
+</html>
