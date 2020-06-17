@@ -7,7 +7,7 @@ This is a simple project made using Spring Boot that can add contacts into sales
 
 Steps to follow for deployment:
 
-1. Add a new field in your salesforce org with Name <strong>External Phone Id</strong> and api name <strong>external_phone_idc</strong>>
+1. Add a new field in your salesforce org with Name <strong>External Phone Id</strong> and api name <strong>external_phone_id</strong>
 2. Open your heroku dashboard, navigate yo the app you just deployed using the Deploy to Heroku button.
 4. Go to resources and then add a new add-on <strong>Heroku Connect</strong>
 5. In the App to Provision to select your new app and Click on "Provision add-on".
